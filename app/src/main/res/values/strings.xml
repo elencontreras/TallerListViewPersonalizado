@@ -16,6 +16,9 @@
     <string name="negro">Negro</string>
     <string name="error1">Por favor ingresar datos</string>
     <string name="mensaje">Carro registrado exitosamente</string>
+    <string name="cantidadCarros">No de carros registrados</string>
+    <string name="carrosPorMarca">No de carros por marca</string>
+    <string name="carrosPorColor">No de carros por color</string>
     <string-array name="opcPrincipal">
         <item>@string/registrarCarros</item>
         <item>@string/listarCarros</item>
@@ -40,5 +43,10 @@
         <item>@string/rojo</item>
         <item>@string/blanco</item>
         <item>@string/negro</item>
+    </string-array>
+    <string-array name="opcReportes">
+        <item>@string/cantidadCarros</item>
+        <item>@string/carrosPorMarca</item>
+        <item>@string/carrosPorMarca</item>
     </string-array>
 </resources>
