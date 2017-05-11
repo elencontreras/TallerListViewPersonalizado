@@ -1,5 +1,6 @@
 package com.example.android.listviewpersonalizado;
 
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +9,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -33,22 +35,21 @@ public class Reportes extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch(position){
                     case 0:
-                        i=new Intent(Reportes.this,RegistroCarros.class);
+                        i =new Intent(Reportes.this, NumeroCarros.class);
                         startActivity(i);
                         break;
                     case 1:
-                        i =new Intent(Reportes.this, ListarCarros.class);
+                        i =new Intent(Reportes.this, CarrosPorMarca.class);
                         startActivity(i);
                         break;
-                    case 2:
-                        i=new Intent(Reportes.this, Reportes.class);
-                        startActivity(i);
-                        break;
+
                 }
             }
         });
 
     }
+
+
     }
 
 

@@ -2,7 +2,7 @@
     <string name="app_name">ListViewPersonalizado</string>
     <string name="registroDeCarros">REGISTRO DE CARROS</string>
     <string name="placa">Placa</string>
-    <string name="Marca">Marca</string >
+    <string name="Marca">Marca</string>
     <string name="modelo">Modelo</string>
     <string name="color">Color</string>
     <string name="precio">Precio</string>
@@ -19,6 +19,21 @@
     <string name="cantidadCarros">No de carros registrados</string>
     <string name="carrosPorMarca">No de carros por marca</string>
     <string name="carrosPorColor">No de carros por color</string>
+    <string name="mens1">El número de carros marca KIA registrados es: </string>
+    <string name="mens2">El número de carros marca CHEVROLET registrados es: </string>
+    <string name="mens3">El número de carros marca NISSAN registrados es: </string>
+    <string name="mens4">El número de carros total registrados es:  </string>
+    <string name="mens5">El número de carros de color rojo registrados es:  </string>
+    <string name="mens6">El número de carros de color blanco registrados es:  </string>
+    <string name="mens7">El número de carros de color negro registrados es:  </string>
+    <string name="mens8">No existen carros marca KIA registrados </string>
+    <string name="mens9">No existen carros marca CHEVROLET registrados </string>
+    <string name="mens10">No existen carros marca NISSAN registrados </string>
+    <string name="mens11">No existen carros de color rojo registrados </string>
+    <string name="mens12">No existen carros de color blanco registrados </string>
+    <string name="mens13">No existen carros de color negro registrados </string>
+
+    <string name="aceptar">Aceptar</string>
     <string-array name="opcPrincipal">
         <item>@string/registrarCarros</item>
         <item>@string/listarCarros</item>
@@ -47,6 +62,6 @@
     <string-array name="opcReportes">
         <item>@string/cantidadCarros</item>
         <item>@string/carrosPorMarca</item>
-        <item>@string/carrosPorMarca</item>
+        <item>@string/carrosPorColor</item>
     </string-array>
 </resources>

@@ -46,26 +46,22 @@ public class RegistroCarros extends AppCompatActivity {
 
     public void guardar (View v){
         String placaC, marcaC, modeloC, colorC, precioC, foto;
-        int pre;
+
         placaC=placa.getText().toString().trim();
         marcaC=marca.getSelectedItem().toString();
         modeloC=modelo.getSelectedItem().toString();
         colorC=color.getSelectedItem().toString();
         precioC= precio.getText().toString().trim();
-        pre= Integer.parseInt(precioC);
+
 
         foto=String.valueOf(fotoAleatoria());
         if (validar()) {
-            Carro c = new Carro(placaC, marcaC, modeloC, colorC, pre, foto);
+            Carro c = new Carro(placaC, marcaC, modeloC, colorC,precioC, foto);
             c.guardar();
 
             Toast toast1 = Toast.makeText(getApplicationContext(), res.getString(R.string.mensaje), Toast.LENGTH_SHORT);
             toast1.show();
         }
-
-
-
-
 
 
     }
@@ -82,7 +78,7 @@ public class RegistroCarros extends AppCompatActivity {
             return false;
         }
 
-        //REVISARRRRRRRRR
+
         if (precio.getText().toString().isEmpty()){
             precio.setError(res.getString(R.string.error1));
             return false;
@@ -90,5 +86,11 @@ public class RegistroCarros extends AppCompatActivity {
         return true;
     }
 
-
+    public void borrar(View v){
+        placa.setText("");
+        marca.setSelection(0);
+        modelo.setSelection(0);
+        color.setSelection(0);
+        precio.setText("");
+    }
 }

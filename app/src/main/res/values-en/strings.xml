@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ListViewPersonalizado</string>
+    <string name="Marca">Brand</string>
+    <string name="aceptar">Accept</string>
+    <string name="blanco">White</string>
+    <string name="borrar">Clear</string>
+    <string name="cantidadCarros">Number of registered cars</string>
+    <string name="carrosPorColor">Number of cars per color</string>
+    <string name="carrosPorMarca">Number of cars per brand</string>
+    <string name="color">Color</string>
+    <string name="error1">Please enter data</string>
+    <string name="guardar">Save</string>
+    <string name="listarCarros">List Cars</string>
+    <string name="mens1">The number of KIA brand cars is:</string>
+    <string name="mens2">The number of CHEVROLET brand cars is:</string>
+    <string name="mens3">The number of NISSAN brand cars is:</string>
+    <string name="mens4">The total number of registered cars is:</string>
+    <string name="mens5">The number of red cars registered is:</string>
+    <string name="mens6">The number of white cars registered is:</string>
+    <string name="mens7">The number of black cars registered is:</string>
+    <string name="mensaje">Car succesfully registered</string>
+    <string name="modelo">Model</string>
+    <string name="negro">Black</string>
+    <string name="placa">License Plate</string>
+    <string name="precio">Price</string>
+    <string name="registroDeCarros">Car Register</string>
+    <string name="registrarCarros">Register cars</string>
+    <string name="reportes">Reports</string>
+    <string name="rojo">Red</string>
+</resources>

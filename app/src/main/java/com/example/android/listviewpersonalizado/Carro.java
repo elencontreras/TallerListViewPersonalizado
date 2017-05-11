@@ -9,10 +9,10 @@ public class Carro {
     private String marca;
     private String modelo;
     private String color;
-    private int precio;
+    private String precio;
     private String foto;
 
-    public Carro(String placa, String marca, String modelo, String color, int precio, String foto) {
+    public Carro(String placa, String marca, String modelo, String color, String precio, String foto) {
         this.placa = placa;
         this.marca = marca;
         this.modelo = modelo;
@@ -53,11 +53,11 @@ public class Carro {
         this.color = color;
     }
 
-    public int getPrecio() {
+    public String getPrecio() {
         return precio;
     }
 
-    public void setPrecio(int precio) {
+    public void setPrecio(String precio) {
         this.precio = precio;
     }
 
@@ -72,4 +72,8 @@ public class Carro {
     public void guardar(){
         Datos.guardar(this);
     }
+
+
 }
+
+
